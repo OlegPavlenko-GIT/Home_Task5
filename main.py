@@ -1,4 +1,3 @@
-import random
 # Задание №1. Задание 1
 # В списке целых, заполненном случайными числами вычислить:
 # Сумму отрицательных чисел;
@@ -10,6 +9,7 @@ import random
 # Выполнение:
 #
 # Let's create a list of random numbers
+import random
 numbers = [random.randint(-100, 100) for _ in range(10)]
 #
 # Initialize variables for sums and products
